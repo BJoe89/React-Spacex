@@ -1,0 +1,51 @@
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.copy {
+
+    color: darkgray;
+    margin-top: 3rem;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.links {}
+
+.links li {
+
+    list-style: none;
+    margin: 5px 15px;
+}
+
+.links ul {
+
+
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.links a:hover {
+
+    text-decoration: none;
+    color: #707070;
+    transition: 0.5s;
+}
